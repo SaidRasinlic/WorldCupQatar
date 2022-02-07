@@ -1,4 +1,4 @@
-# "Microverse Portfolio" project
+# "World Cup Qatar 2022" project
 
 > Mobile and Desktop version of World Cup Qatar Conference. I've created home and about pages for this project.
 
