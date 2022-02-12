@@ -49,8 +49,8 @@ body {
   background-size: cover;
   color: transparent;
   background-color: #d3d3d3;
-  -webkit-background-clip: text;
   background-clip: text;
+  -webkit-background-clip: text;
 }
 
 #hero {
