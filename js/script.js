@@ -86,8 +86,8 @@ seeMore.addEventListener('click', () => {
       <p>${speaker.speech}</p>
       </div>
       </li>`;
-      seeMore.innerHTML = `HIDE<i class="fa fa-chevron-up fa-2x mx-3"></i>`
-        });
+      seeMore.innerHTML = 'HIDE<i class="fa fa-chevron-up fa-2x mx-3"></i>';
+    });
     bool = false;
   } else {
     speakersList.innerHTML = '';
