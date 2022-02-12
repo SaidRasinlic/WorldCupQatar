@@ -153,6 +153,16 @@ body {
   padding: 10px;
 }
 
+.program-items p {
+  width: 55%;
+  color: #d3d3d3;
+}
+
+.card-desc p {
+  font-size: small;
+  font-weight: 700;
+}
+
 .hero-datetime > p:nth-child(1) {
   font-size: 30px;
   font-weight: 900;
@@ -197,11 +207,6 @@ body {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   margin: 30px 0;
-}
-
-.program-items p {
-  width: 55%;
-  color: #d3d3d3;
 }
 
 .program-container {
@@ -411,11 +416,6 @@ body {
 .card-desc h5 {
   color: #ec5242;
   line-height: 1.2;
-}
-
-.card-desc p {
-  font-size: small;
-  font-weight: 700;
 }
 
 #logo,
@@ -812,13 +812,13 @@ body {
     justify-content: space-evenly;
     -webkit-box-align: start;
     -ms-flex-align: start;
-     align-items: flex-start;
-    }
-    
-    .speaker:hover {
-      background-color: #e6dfde62;
-      cursor: pointer;
-    }
+    align-items: flex-start;
+  }
+
+  .speaker:hover {
+    background-color: #e6dfde62;
+    cursor: pointer;
+  }
 
   #speakers-container {
     display: -webkit-box;
@@ -857,8 +857,8 @@ body {
     justify-content: space-between;
     -webkit-box-align: start;
     -ms-flex-align: start;
-     align-items: flex-start;
-    }
+    align-items: flex-start;
+  }
 
   .program-btn {
     color: #d3d3d3;
@@ -983,6 +983,5 @@ body {
   .nav-menu-top li a {
     color: #d3d3d3;
     text-decoration: none;
-  }
-}
+  }}
 /*# sourceMappingURL=style.css.map */
