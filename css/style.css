@@ -5,8 +5,8 @@ html {
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
  -webkit-box-sizing: inherit;
  box-sizing: inherit;
 }
@@ -26,7 +26,7 @@ body {
 }
 
 .campaign {
- border: 3px solid #EC5242;
+ border: 3px solid #ec5242;
  margin: 5px;
 }
 
@@ -50,7 +50,7 @@ body {
  background-clip: text;
  -webkit-background-clip: text;
  color: transparent;
- background-color: #D3D3D3;
+ background-color: #d3d3d3;
 }
 
 #hero {
@@ -83,7 +83,7 @@ body {
  -webkit-box-align: start;
  -ms-flex-align: start;
  align-items: flex-start;
- color: #EC5242;
+ color: #ec5242;
  line-height: 1.6;
  font-family: 'Lato', sans-serif;
  margin-top: 50px;
@@ -196,7 +196,7 @@ body {
 
 .program-items p {
  width: 55%;
- color: #D3D3D3;
+ color: #d3d3d3;
 }
 
 .program-container {
@@ -235,7 +235,7 @@ body {
 
 #program-button {
  color: #fff;
- background-color: #EC5242;
+ background-color: #ec5242;
  font-weight: 700;
  font-size: 20px;
  height: 80px;
@@ -261,7 +261,7 @@ body {
 }
 
 .program-items span {
- color: #EC5242;
+ color: #ec5242;
 }
 
 #speakers {
@@ -309,7 +309,7 @@ body {
 #speakers-header::after,
 #partners-header::after {
  content: "";
- background-color: #EC5242;
+ background-color: #ec5242;
  height: 2px;
  width: 80px;
  border-radius: 10px;
@@ -341,26 +341,26 @@ body {
 
 #partners-header,
 #program-header {
- color: #D3D3D3;
+ color: #d3d3d3;
 }
 
 #outro-header,
 #wwc-header,
 #speakers-header {
- color: #272A31;
+ color: #272a31;
 }
 
 #button-see-more {
  text-align: center;
  background-color: #fff;
- border: 2px solid #D3D3D3;
+ border: 2px solid #d3d3d3;
  width: 90%;
  border-radius: 3px;
  height: 50px;
 }
 
 #button-see-more:hover {
- background-color: #D3D3D3;
+ background-color: #d3d3d3;
  -webkit-transition: 0.5s;
  transition: 0.5s;
  -webkit-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
@@ -373,7 +373,7 @@ body {
 .fa-chevron-down {
  font-size: larger;
  text-align: center;
- color: #EC5242;
+ color: #ec5242;
 }
 
 .featured-speakers-list {
@@ -407,11 +407,11 @@ body {
 }
 
 .card-desc h3 {
- color: #272A31;
+ color: #272a31;
 }
 
 .card-desc h5 {
- color: #EC5242;
+ color: #ec5242;
  line-height: 1.2;
 }
 
@@ -427,7 +427,7 @@ body {
 }
 
 .partners {
- background-color: #272A31;
+ background-color: #272a31;
 }
 
 #partners-container {
@@ -543,7 +543,7 @@ body {
  background-clip: text;
  -webkit-background-clip: text;
  color: transparent;
- background-color: #D3D3D3;
+ background-color: #d3d3d3;
 }
 
 .about-hero-subheader {
@@ -561,7 +561,7 @@ body {
  -ms-flex-align: center;
  align-items: center;
  text-align: center;
- color: #EC5242;
+ color: #ec5242;
  line-height: 1.2;
  font-family: 'Lato', sans-serif;
  margin-top: 50px;
@@ -633,7 +633,7 @@ body {
 }
 
 #address a {
- color: #272A31;
+ color: #272a31;
  font-weight: 700;
  font-size: 14px;
 }
@@ -675,7 +675,7 @@ body {
  -webkit-box-pack: center;
  -ms-flex-pack: center;
  justify-content: center;
- border: 2px solid #D3D3D3;
+ border: 2px solid #d3d3d3;
  width: 100%;
  margin-top: 30px;
  cursor: pointer;
@@ -685,7 +685,7 @@ body {
  padding: 0 50px;
  font-size: 14px;
  text-align: center;
- color: #272A31;
+ color: #272a31;
  width: 80%;
  line-height: 1.2;
 }
@@ -854,7 +854,7 @@ body {
   align-items: flex-start;
  }
  .program-btn {
-  color: #D3D3D3;
+  color: #d3d3d3;
  }
  .program-btn:hover {
   color: #fff;
@@ -865,7 +865,7 @@ body {
  }
  .program-items p {
   width: 55%;
-  color: #D3D3D3;
+  color: #d3d3d3;
  }
  .program-items span {
   height: 20%;
@@ -953,7 +953,7 @@ body {
   justify-content: flex-end;
   border: 1px solid black;
   list-style-type: none;
-  background-color: #272A31;
+  background-color: #272a31;
   padding: 0 10%;
   margin: 0;
  }
@@ -962,10 +962,7 @@ body {
   margin: 0 10px;
  }
  .nav-menu-top li a {
-  color: #D3D3D3;
+  color: #d3d3d3;
   text-decoration: none;
  }
 }
-
-
-/*# sourceMappingURL=style.css.map */
