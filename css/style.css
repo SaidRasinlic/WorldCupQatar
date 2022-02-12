@@ -26,7 +26,7 @@ body {
   display: inline;
 }
 
-.close-edit{
+.close-edit {
   font-size: 25px;
 }
 
@@ -140,7 +140,6 @@ body {
   font-weight: 700;
   text-shadow: #090909;
   background: linear-gradient(rgba(233, 115, 46, 0.199), rgba(201, 252, 201, 0.336)), rgba(245, 222, 179, 0.24);
-
 }
 
 .hero-datetime {
@@ -604,7 +603,6 @@ body {
   -ms-flex-align: center;
   align-items: center;
   text-align: center;
-  font-weight: 400;
   font-size: 16px;
   margin: 10px;
   padding: 10px;
@@ -634,7 +632,7 @@ body {
   padding: 20px;
 }
 
-#address{
+#address {
   margin-top: -35px;
 }
 
@@ -992,6 +990,4 @@ body {
   .nav-menu-top li a {
     color: #d3d3d3;
     text-decoration: none;
-  }
-}
- /*# sourceMappingURL=style.css.map */
+  } }/*# sourceMappingURL=style.css.map */

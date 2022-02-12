@@ -45,7 +45,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: text;
-  -webkit-background-clip: text; 
+  -webkit-background-clip: text;
   color: transparent;
   background-color: $gray;
 }
@@ -67,9 +67,7 @@ body {
   align-items: flex-start;
   color: $orange;
   line-height: $line-h-recom;
-  font-family: 'Lato', sans-serif;
   margin-top: 50px;
-  padding: 10px;
   margin-bottom: -15px;
   font-weight: 700;
   text-shadow: #090909;
@@ -113,6 +111,16 @@ body {
   padding: 10px;
 }
 
+.program-items p {
+  width: 55%;
+  color: $gray;
+}
+
+.card-desc p {
+  font-size: small;
+  font-weight: 700;
+}
+
 .hero-datetime > p:nth-child(1) {
   font-size: 30px;
   font-weight: 900;
@@ -125,12 +133,10 @@ body {
 #program {
   background-color: #090909;
   background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 20.5V18H0v-2h20v-2H0v-2h20v-2H0V8h20V6H0V4h20V2H0V0h22v20h2V0h2v20h2V0h2v20h2V0h2v20h2V0h2v20h2v2H20v-1.5zM0 20h2v20H0V20zm4 0h2v20H4V20zm4 0h2v20H8V20zm4 0h2v20h-2V20zm4 0h2v20h-2V20zm4 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2z' fill='%23ffffff' fill-opacity='0.13' fill-rule='evenodd'/%3E%3C/svg%3E");
-  padding-bottom: 50px;
   border: 2px solid red;
   padding-bottom: 150px;
 }
 
-// copyyy
 .program-items {
   height: 100%;
   width: 100%;
@@ -142,15 +148,14 @@ body {
   cursor: pointer;
 }
 
+.spider-net {
+  background-color: #acacac1f;
+}
+
 .spider-net:hover {
   background-color: #ec10104b;
   transition: 0.3s;
   margin: 30px 0;
-}
-
-.program-items p {
-  width: 55%;
-  color: $gray;
 }
 
 .program-container {
@@ -163,6 +168,7 @@ body {
 
 .program-items span {
   width: 28%;
+  color: $orange;
 }
 
 .program-list {
@@ -172,10 +178,6 @@ body {
 
 .program-items img {
   width: 50px;
-}
-
-.spider-net {
-  background-color: #acacac1f;
 }
 
 #program-button {
@@ -201,10 +203,6 @@ body {
   display: block;
   color: $white;
   margin: 5px;
-}
-
-.program-items span {
-  color: $orange;
 }
 
 #speakers {
@@ -327,11 +325,6 @@ body {
 .card-desc h5 {
   color: $orange;
   line-height: $line-h;
-}
-
-.card-desc p {
-  font-size: small;
-  font-weight: 700;
 }
 
 #logo,
@@ -592,16 +585,16 @@ body {
     flex-direction: row;
   }
 
-  .speaker:hover {
-    background-color: #e6dfde62;
-    cursor: pointer;
-  }
-
   .speaker {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: flex-start;
+  }
+
+  .speaker:hover {
+    background-color: #e6dfde62;
+    cursor: pointer;
   }
 
   #speakers-container {
