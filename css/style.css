@@ -26,6 +26,10 @@ body {
   display: inline;
 }
 
+.close-edit{
+  font-size: 25px;
+}
+
 .campaign {
   border: 3px solid #ec5242;
   margin: 5px;
@@ -414,7 +418,7 @@ body {
   line-height: 1.2;
 }
 
-#logo,
+.logo,
 #logo-qatar {
   -webkit-filter: invert(49%) sepia(91%) saturate(4407%) hue-rotate(340deg) brightness(103%) contrast(85%);
   filter: invert(49%) sepia(91%) saturate(4407%) hue-rotate(340deg) brightness(103%) contrast(85%);
