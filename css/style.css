@@ -88,14 +88,13 @@ body {
   line-height: 1.6;
   font-family: 'Lato', sans-serif;
   margin-top: 50px;
-  padding: 10px;
   margin-bottom: -15px;
   font-weight: 700;
   text-shadow: #090909;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(102, 93, 93, 0.301)), to(rgba(126, 113, 113, 0.247))), rgba(0, 0, 0, 0.425);
   background: linear-gradient(rgba(102, 93, 93, 0.301), rgba(126, 113, 113, 0.247)), rgba(0, 0, 0, 0.425);
   margin-left: 5px;
-  padding: 5px;
+  padding: 10px;
 }
 
 .hero-header {
@@ -175,9 +174,8 @@ body {
 #program {
   background-color: #090909;
   background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 20.5V18H0v-2h20v-2H0v-2h20v-2H0V8h20V6H0V4h20V2H0V0h22v20h2V0h2v20h2V0h2v20h2V0h2v20h2V0h2v20h2v2H20v-1.5zM0 20h2v20H0V20zm4 0h2v20H4V20zm4 0h2v20H8V20zm4 0h2v20h-2V20zm4 0h2v20h-2V20zm4 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2z' fill='%23ffffff' fill-opacity='0.13' fill-rule='evenodd'/%3E%3C/svg%3E");
-  padding-bottom: 50px;
+  padding-bottom: 80px;
   border: 2px solid red;
-  padding-bottom: 150px;
 }
 
 .program-items {
@@ -983,5 +981,5 @@ body {
   .nav-menu-top li a {
     color: #d3d3d3;
     text-decoration: none;
-  }}
-/*# sourceMappingURL=style.css.map */
+  }
+} /*# sourceMappingURL=style.css.map */
