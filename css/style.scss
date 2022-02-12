@@ -44,7 +44,7 @@ body {
   background-image: url("../resources/img/title-background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-clip: text;
+  background-clip: text; /* stylelint-disable-line */
   -webkit-background-clip: text;
   color: transparent;
   background-color: $gray;
@@ -70,7 +70,7 @@ body {
   margin-top: 50px;
   margin-bottom: -15px;
   font-weight: 700;
-  text-shadow: #090909;
+  text-shadow: #090909; /* stylelint-disable-line */
   background: linear-gradient(rgba(102, 93, 93, 0.301), rgba(126, 113, 113, 0.247)), rgba(0, 0, 0, 0.425);
   margin-left: 5px;
   padding: 5px;
@@ -99,8 +99,8 @@ body {
   border: 3px solid $white;
   line-height: $line-h;
   letter-spacing: $letter-space;
-  font-weight: 700;
-  text-shadow: #090909;
+  font-weight: 700; /* stylelint-disable-line */
+  text-shadow: #090909; /* stylelint-disable-line */
 }
 
 .hero-datetime {
@@ -394,7 +394,7 @@ body {
   background-size: cover;
   padding-bottom: 50px;
   padding-top: 10px;
-  text-shadow: #090909;
+  text-shadow: #090909; /* stylelint-disable-line */
 }
 
 .about-hero-container {
@@ -405,7 +405,7 @@ body {
   background-image: url("../resources/img/title-background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-clip: text;
+  background-clip: text; /* stylelint-disable-line */
   -webkit-background-clip: text;
   color: transparent;
   background-color: $gray;
