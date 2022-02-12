@@ -776,7 +776,7 @@ body {
   .nav-tops,
   .campaign {
     display: none;
- }
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -784,22 +784,22 @@ body {
   #about-hero {
     padding-bottom: 250px;
     padding-top: 150px;
- }
+  }
 
  .hide-mobile-nav {
    display: none;
- }
+  }
 
  .navy {
    height: 24px;
- }
+  }
 
  #outro-container {
    -webkit-box-orient: horizontal;
    -webkit-box-direction: normal;
    -ms-flex-direction: row;
    flex-direction: row;
- }
+  }
 
  .speaker {
    display: -webkit-box;
@@ -860,7 +860,7 @@ body {
    -webkit-box-align: start;
    -ms-flex-align: start;
    align-items: flex-start;
- }
+  }
 
  .program-btn {
    color: #d3d3d3;
