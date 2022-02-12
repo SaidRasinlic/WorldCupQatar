@@ -2,8 +2,8 @@
 
 > Mobile and Desktop version of World Cup Qatar Conference. I've created home and about pages for this project.
 
-![screenshot](../resources/img/./Mobile-WWC.png) <hr/>
-![screenshot](../resources/img/./Desktop-WWC.png)
+![screenshot](.../resources/img/./Mobile-WWC.png) <hr/>
+![screenshot](.../resources/img/./Desktop-WWC.png)
 
 Additional description about the project and its features.
 
