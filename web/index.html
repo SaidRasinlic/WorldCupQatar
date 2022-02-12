@@ -16,27 +16,28 @@
 </head>
 
 <body>
-  <header id="header">
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+  <header>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light hide-mobile-nav">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img id="logo" src="resources/img/fifa-world-cup.svg" alt="FIFA World Cup Qatar 2022"></a>
+        <a class="navbar-brand" href="./index.html"><img id="logo" src="resources/img/fifa-world-cup.svg" alt="FIFA World Cup Qatar 2022"></a>
         <button class="navbar-toggler collapsed" id="hamburger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <div class="navbar-toggler-icon"></div>
-        <div class="close-icon py-1">✖</div>
-      </button>
-        <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarNav">
+      <div class="navbar-toggler-icon"></div>
+      <div class="close-icon py-1">✖</div>
+    </button>
+        <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNav">
           <ul class="navbar-nav justify-content-center align-items-center">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Program</a>
+              <a class="nav-link" href="#program">Program</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="./about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sponsors</a>
+              <a class="nav-link" href="./about.html#sponsors">Sponsors</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">News</a>
@@ -48,6 +49,53 @@
         </div>
       </div>
     </nav>
+
+    <div class="hide-desktop-nav">
+      <div class="navbar navbar-expand-md navbar-dark bg-dark nav-tops fixed-top py-0 navy hide-desktop-nav">
+        <div class="container-fluid d-flex justify-content-end align-items-center py-0">
+          <ul class="navbar-nav justify-content-center align-items-center py-0">
+            <li class="nav-item nav-items-top"><a href="#" class="nav-link top"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="nav-item nav-items-top"><a href="#" class="nav-link top"><i class="fab fa-twitter"></i></a></li>
+            <li class="nav-item nav-items-top"><a href="#" class="nav-link top">English</a></li>
+            <li class="nav-item nav-items-top"><a href="#" class="nav-link top">My Page</a></li>
+            <li class="nav-item nav-items-top"><a href="#" class="nav-link top">Login</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top my-4">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"><img id="logo" src="resources/img/fifa-world-cup.svg" alt="FIFA World Cup Qatar 2022"></a>
+          <button class="navbar-toggler collapsed" id="hamburger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="navbar-toggler-icon"></div>
+        <div class="close-icon py-1">✖</div>
+      </button>
+          <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNav">
+            <ul class="navbar-nav justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#program">Program</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html#sponsors">Sponsors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item campaign">
+                <a class="nav-link" href="#">WC Campaign</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
   </header>
 
   <main id="main">
@@ -59,7 +107,8 @@
       </div>
       <div class="hero-main-message">
         <p>
-          In all cases, we are continuing with our preparations to host a unique edition of the FIFA World Cup in 2022 and ensuring that it is a tournament of innovation, hospitality and legacy.
+          In all cases, we are continuing with our preparations to host a unique edition of the FIFA World Cup in 2022 and ensuring that it is a tournament of innovation, hospitality and legacy. The natural gas-rich emirate has spent tens of billions of dollars
+          to build hotels, a new transport system and lavish stadiums to cope with staging the event.
         </p>
       </div>
       <div class="hero-datetime">
@@ -68,35 +117,34 @@
       </div>
     </section>
 
+    </section>
     <section id="program">
-      <div id="program-container">
+      <div class="program-container pt-5">
         <h2 id="program-header">Our Program</h2>
-        <ul id="program-items-container">
+        <ul class="program-list">
           <li class="program-items spider-net"><img class="icons" src="../web/resources/img/speech.png" alt="Welcome &amp; Introduction">
-            <span>Welcome &amp; Introduction</span>
-            <p>Come and welcome our great mindset speakers from all over the world. The main story will be artificial intelligence used in football and summary of building historic stadiums that eye has no seen before! There will be so many mesmerizing highlights
-              of all over these years of building stadiums and much more.</p>
+            <span>Introduction</span>
+            <p>Come and welcome our great mindset speakers from all over the world.</p>
           </li>
           <li class="program-items spider-net"><img class="icons" src="../web/resources/img/red-bag.svg" alt="Fan Shop">
-            <span>Fan Shop</span>
-            <p>The official shop for FIFA World Cup 2022&trade; offers tons of fan gear, official jerseys, old jerseys, souvenirs with the motifs used by popular national clubs, clothing for adults/children and sport equipment.</p>
+            <span>Fan-Shop</span>
+            <p>Official shop for FIFA World Cup 2022&trade; offers tons of fan gear. You gonna like it!</p>
           </li>
-          <li class="program-items spider-net"><img class="icons" src="../web/resources/img/forum-2.svg" alt="Forum">
+          <li class="program-items spider-net">
+            <img class="icons" src="../web/resources/img/forum-2.svg" alt="Forum">
             <span>Forum</span>
-            <p>Join us on forum and have fun, play quizzes, discuss with thousands of other members of our great community. Share your opinions about this fantastic journey and freely chat with others. Do not wait join us now!</p>
-          </li>
-          <li class="program-items spider-net"><img class="icons" src="../web/resources/img/present.png" alt="World Cup Giveaways">
-            <span>World Cup Giveaways</span>
-            <p>During FIFA World Cup 2022&trade; we will be giving a lot of free valuable prizes, you can participate for free and if you are lucky enough you can win stunning prizes. Prizes will be every week until the end of World Cup!</p>
+            <p>Join us on forum and have fun and discuss with thousands of other members.</p>
           </li>
           <li class="program-items spider-net"><img class="icons" src="../web/resources/img/photos.png" alt="Photos">
             <span>Photos</span>
-            <p>Incredible, spectacular,outstanding and futurustic design of stadiums. No words can describe the luxurious construction that was implemented to the most expensive stadium projects ever built. Want to see breathtaking and euphoric stadium photos?
-              Check it out and take a look!</p>
+            <p>Spectacular, outstanding and futurustic design of stadiums. Check it out!</p>
           </li>
           <small id="small-text">Want to join us?</small>
           <li class="program-items hide-query"><button id="program-button">Join to World Cup 2022&trade;</button></li>
         </ul>
+        <div class="button-container hover-pointer my-4">
+          <a href="#program" class="program-btn">SEE THE WHOLE PROGRAM</a>
+        </div>
       </div>
     </section>
 

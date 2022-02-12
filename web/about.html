@@ -12,47 +12,77 @@
   <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/style.css">
-
-
   <title>About</title>
 </head>
 
 <body>
 
   <header id="header">
-    <!-- <nav class="navbar socialMedia hide">
-      <ul class="top-navbar-list d-flex">
-        <li class="media-link top-navbar-item m-2">
-          <a href="#"><i class="fa fa-facebook"></i></a>
-        </li>
-        <li class="media-link top-navbar-item m-2">
-          <a href="./index.html"><i class="fa fa-twitter"></i></a>
-        </li>
-        <li class="top-navbar-item m-2"><a href="#">English</a></li>
-        <li class="top-navbar-item m-2"><a href="#">My Page</a></li>
-        <li class="top-navbar-item m-2"><a href="#">Login</a></li>
-      </ul>
-    </nav> -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light hide-mobile-nav">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img id="logo" src="resources/img/fifa-world-cup.svg" alt="FIFA World Cup Qatar 2022"></a>
+        <a class="navbar-brand" href="./index.html"><img id="logo" src="resources/img/fifa-world-cup.svg" alt="FIFA World Cup Qatar 2022"></a>
         <button class="navbar-toggler collapsed" id="hamburger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <div class="navbar-toggler-icon"></div>
-          <div class="close-icon py-1">✖</div>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarNav">
+      <div class="navbar-toggler-icon"></div>
+      <div class="close-icon py-1">✖</div>
+    </button>
+        <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNav">
           <ul class="navbar-nav justify-content-center align-items-center">
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Program</a>
+              <a class="nav-link" href="#program">Program</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html#sponsors">Sponsors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item campaign">
+              <a class="nav-link" href="#">WC Campaign</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="navbar navbar-expand-md navbar-dark bg-dark nav-tops py-0 fixed-top navy hide-desktop-nav">
+      <div class="container-fluid d-flex justify-content-end align-items-center py-0">
+        <ul class="navbar-nav justify-content-center align-items-center py-0">
+          <li class="nav-item nav-items-top"><a href="#" class="nav-link top"><i class="fab fa-facebook-f"></i></a></li>
+          <li class="nav-item nav-items-top"><a href="#" class="nav-link top"><i class="fab fa-twitter"></i></a></li>
+          <li class="nav-item nav-items-top"><a href="#" class="nav-link top">English</a></li>
+          <li class="nav-item nav-items-top"><a href="#" class="nav-link top">My Page</a></li>
+          <li class="nav-item nav-items-top"><a href="#" class="nav-link top">Login</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top my-4 hide-desktop-nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><img id="logo" src="resources/img/fifa-world-cup.svg" alt="FIFA World Cup Qatar 2022"></a>
+        <button class="navbar-toggler collapsed" id="hamburger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="navbar-toggler-icon"></div>
+        <div class="close-icon py-1">✖</div>
+      </button>
+        <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNav">
+          <ul class="navbar-nav justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html#program">Program</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sponsors</a>
+              <a class="nav-link" href="#sponsors">Sponsors</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">News</a>
@@ -99,7 +129,8 @@
     <section id="wwc-intro">
       <div id="wwc-container">
         <h2 id="wwc-header">FIFA World Cup&trade; Logo</h2>
-        <p>The logo of FIFA World Cup&trade; was decided through the logo of competition from 21 Nov. to 18 Dec.</p>
+        <p>The FIFA World Cup&trade; is the most widely viewed and followed sporting event in the world. The logo for the 2022 World Cup&trade; in Qatar has been unveiled and we decided to do a round-up of all the World Cup logos from 1930 &dash; 2022.The
+          logo of FIFA World Cup&trade; was decided through the logo of competition from 21 Nov. to 18 Dec.</p>
         <p><img id="logo-qatar" src="../web/resources/img/official-logo.svg" alt="Official World Cup Logo"></p>
       </div>
     </section>
@@ -108,19 +139,19 @@
     <section id="wwc-outro">
       <h2 id="outro-header">Design &amp; Architecture</h2>
       <div id="outro-container">
-        <div class="outro-item"><img class="outro-pic" src="../web/resources/img/lusail-stadium.png" alt="Qatar Stadium">
+        <div class="outro-item"><img class="outro-pic pic1" src="../web/resources/img/lusail-stadium.png" alt="Qatar Stadium">
           <h4 class="over-text-y">2022</h4>
           <p class="over-text-p">An ultra modern stadiums</p>
         </div>
         <div class="outro-item">
-          <div class="bg"><img class="outro-pic" src="../web/resources/img/conference.png" alt="Conference &and; Gala"></div>
+          <div class="bg"><img class="outro-pic pic2" src="../web/resources/img/conference.png" alt="Conference &and; Gala"></div>
           <h4 class="over-text-y">2024</h4>
           <p class="over-text-p">Check out our future plans</p>
         </div>
       </div>
     </section>
 
-    <section class="partners">
+    <section id="sponsors" class="partners">
       <div id="partners-container">
         <h2 id="partners-header">Partners</h2>
         <ul class="partners-list">
@@ -151,7 +182,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
   </script>
   <script src="../js/navbar.js"></script>
-
 
 </body>
 

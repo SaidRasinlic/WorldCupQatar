@@ -13,8 +13,8 @@ html {
 
 body {
   font-family: 'Leto', sans-serif;
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .navbar-toggler.collapsed .close-icon {
@@ -23,6 +23,11 @@ body {
 
 .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
   display: inline;
+}
+
+.campaign {
+  border: 3px solid #EC5242;
+  margin: 5px;
 }
 
 .hero-container {
@@ -56,11 +61,12 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(206, 205, 205, 0.301)), to(rgba(220, 224, 220, 0.726))), url("../web/resources/img/Education-City-Stadium.png");
-  background: linear-gradient(rgba(206, 205, 205, 0.301), rgba(220, 224, 220, 0.726)), url("../web/resources/img/Education-City-Stadium.png");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(206, 205, 205, 0.301)), to(rgba(220, 224, 220, 0.726))), url("../web/resources/img/stadium-qatar.png");
+  background: linear-gradient(rgba(206, 205, 205, 0.301), rgba(220, 224, 220, 0.726)), url("../web/resources/img/stadium-qatar.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
+  padding-top: 10px;
 }
 
 .hero-subheader {
@@ -78,11 +84,17 @@ body {
       -ms-flex-align: start;
           align-items: flex-start;
   color: #EC5242;
-  line-height: 1.2;
+  line-height: 1.6;
   font-family: 'Lato', sans-serif;
   margin-top: 50px;
   padding: 10px;
   margin-bottom: -15px;
+  font-weight: 700;
+  text-shadow: #090909;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(102, 93, 93, 0.301)), to(rgba(126, 113, 113, 0.247))), rgba(0, 0, 0, 0.425);
+  background: linear-gradient(rgba(102, 93, 93, 0.301), rgba(126, 113, 113, 0.247)), rgba(0, 0, 0, 0.425);
+  margin-left: 5px;
+  padding: 5px;
 }
 
 .hero-header {
@@ -117,12 +129,14 @@ body {
       -ms-flex-align: center;
           align-items: center;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   margin: 10px;
   padding: 10px;
   border: 3px solid #fff;
   line-height: 1.2;
   letter-spacing: 1.6px;
+  font-weight: 700;
+  text-shadow: #090909;
 }
 
 .hero-datetime {
@@ -151,31 +165,16 @@ body {
   background-color: #090909;
   background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 20.5V18H0v-2h20v-2H0v-2h20v-2H0V8h20V6H0V4h20V2H0V0h22v20h2V0h2v20h2V0h2v20h2V0h2v20h2V0h2v20h2v2H20v-1.5zM0 20h2v20H0V20zm4 0h2v20H4V20zm4 0h2v20H8V20zm4 0h2v20h-2V20zm4 0h2v20h-2V20zm4 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2z' fill='%23ffffff' fill-opacity='0.13' fill-rule='evenodd'/%3E%3C/svg%3E");
   padding-bottom: 50px;
-}
-
-#program-container ul {
-  list-style: none;
-}
-
-.program-items img {
-  width: 48px;
-}
-
-.program-items span {
-  width: 20%;
-}
-
-.program-items p {
-  width: 60%;
-}
-
-#program-items-container {
-  width: 95%;
+  border: 2px solid red;
+  padding-bottom: 150px;
 }
 
 .program-items {
   height: 100%;
   width: 100%;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  margin: 20px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -185,12 +184,53 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
+}
+
+.spider-net:hover {
+  background-color: #ec10104b;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin: 30px 0;
+}
+
+.program-items p {
+  width: 55%;
   color: #D3D3D3;
+}
+
+.program-container {
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.program-items span {
+  width: 28%;
+}
+
+.program-list {
+  width: 95%;
+  padding: 0 !important;
+}
+
+.program-items img {
+  width: 50px;
 }
 
 .spider-net {
   background-color: #acacac1f;
-  margin: 20px 0;
 }
 
 #program-button {
@@ -244,6 +284,23 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.speaker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 20px 5px 20px 30px;
 }
 
 #outro-header::after,
@@ -363,19 +420,6 @@ body {
   font-weight: 700;
 }
 
-.speaker {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  padding: 20px 5px 20px 30px;
-}
-
 #logo,
 #logo-qatar {
   -webkit-filter: invert(49%) sepia(91%) saturate(4407%) hue-rotate(340deg) brightness(103%) contrast(85%);
@@ -470,11 +514,13 @@ body {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(206, 205, 205, 0.301)), to(rgba(220, 224, 220, 0.726))), url("../web/resources/img/Education-City-Stadium.png");
-  background: linear-gradient(rgba(206, 205, 205, 0.301), rgba(220, 224, 220, 0.726)), url("../web/resources/img/Education-City-Stadium.png");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(206, 205, 205, 0.301)), to(rgba(220, 224, 220, 0.726))), url("../web/resources/img/stadium-qatar.png");
+  background: linear-gradient(rgba(206, 205, 205, 0.301), rgba(220, 224, 220, 0.726)), url("../web/resources/img/stadium-qatar.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 50px;
+  padding-top: 10px;
+  text-shadow: #090909;
 }
 
 .about-hero-container {
@@ -521,6 +567,9 @@ body {
   margin-top: 50px;
   padding: 10px;
   margin-bottom: -15px;
+  font-weight: 700;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(102, 93, 93, 0.301)), to(rgba(126, 113, 113, 0.247))), rgba(0, 0, 0, 0.425);
+  background: linear-gradient(rgba(102, 93, 93, 0.301), rgba(126, 113, 113, 0.247)), rgba(0, 0, 0, 0.425);
 }
 
 .about-hero-header {
@@ -629,6 +678,7 @@ body {
   border: 2px solid #D3D3D3;
   width: 100%;
   margin-top: 30px;
+  cursor: pointer;
 }
 
 #wwc-container p:nth-child(2) {
@@ -636,6 +686,7 @@ body {
   font-size: 14px;
   text-align: center;
   color: #272A31;
+  width: 80%;
   line-height: 1.2;
 }
 
@@ -717,12 +768,40 @@ body {
   font-size: 20px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
+  .hide-desktop-nav,
+  .navy,
+  .desk-nav,
+  .button-container,
+  .nav-tops,
   .campaign {
-    border: 3px solid #EC5242;
-    margin: 5px;
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #hero,
+  #about-hero {
+    padding-bottom: 250px;
+    padding-top: 150px;
+  }
+  .hide-mobile-nav {
+    display: none;
+  }
+  .navy {
+    height: 24px;
   }
   #outro-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .speaker:hover {
+    background-color: #e6dfde62;
+    cursor: pointer;
+  }
+  .speaker {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -730,52 +809,161 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    width: 100%;
-    height: 100%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
-  .hide-query {
-    display: none;
-  }
-  #small-text {
-    display: none;
-  }
-  #program-items-container {
+  #speakers-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-left: 100px;
-  }
-  .program-items {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: 10px;
-    width: 50%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
+  .featured-speakers-list {
+    width: 90%;
+    display: -ms-grid;
+    display: grid;
+    gap: 20px;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+  }
+  .speakers {
+    width: 100%;
+    padding: 20px 5px 20px 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .program-btn {
+    color: #D3D3D3;
+  }
+  .program-btn:hover {
+    color: #fff;
+    font-size: 17px;
+  }
+  .program-items img {
+    height: 30%;
+  }
+  .program-items p {
+    width: 55%;
+    color: #D3D3D3;
+  }
+  .program-items span {
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    font-size: 20px;
+  }
+  .program-list {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .program-items {
+    border-radius: 3px;
+    border: 3px solid rgba(255, 255, 255, 0);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 50px 4px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 200px;
+    height: 250px;
+    cursor: pointer;
+  }
+  .program-items:hover {
+    background-color: #ec10104b;
+    width: 220px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .hide-query,
+  #small-text,
   #program-button {
     display: none;
+  }
+  .about-hero-main-message {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid #fff;
+    line-height: 1.2;
+    letter-spacing: 1.6px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(240, 133, 133, 0.301)), to(rgba(220, 224, 220, 0.726))), wheat;
+    background: linear-gradient(rgba(240, 133, 133, 0.301), rgba(220, 224, 220, 0.726)), wheat;
+    width: 50%;
+  }
+  .nav-menu-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    border: 1px solid black;
+    list-style-type: none;
+    background-color: #272A31;
+    padding: 0 10%;
+    margin: 0;
+  }
+  .nav-menu-top li {
+    font-size: medium;
+    margin: 0 10px;
+  }
+  .nav-menu-top li a {
+    color: #D3D3D3;
+    text-decoration: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
