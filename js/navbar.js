@@ -1,14 +1,13 @@
 /* eslint-env jquery */
-$(document).click(function(event) {
-
- let clickover = $(event.target);
- let navbar = $('.navbar-collapse');
- let opened = navbar.hasClass("show");
- if (opened === true && !clickover.hasClass('navbar-toggler')) {
-  navbar.collapse('hide');
- }
+$(document).click((event) => {
+  const clickover = $(event.target);
+  const navbar = $('.navbar-collapse');
+  const opened = navbar.hasClass('show');
+  if (opened === true && !clickover.hasClass('navbar-toggler')) {
+    navbar.collapse('hide');
+  }
 });
 
-$('.navbar').click(function(e) {
- e.stopPropagation();
-})
+$('.navbar').click((e) => {
+  e.stopPropagation();
+});
