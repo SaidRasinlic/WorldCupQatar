@@ -1,9 +1,9 @@
-# "Microverse Portfolio" project
+# "World Cup Qatar 2022" project
 
 > Mobile and Desktop version of World Cup Qatar Conference. I've created home and about pages for this project.
 
-![screenshot](./images/mobile-version.png) <hr/>
-![screenshot](./images/portfolio-desktop.png)
+![screenshot](./docs/resources/img/./Mobile-WWC.png) <hr/>
+![screenshot](./docs/resources/img/./Desktop-WWC.png)
 
 Additional description about the project and its features.
 
@@ -11,11 +11,13 @@ Additional description about the project and its features.
 
 - HTML
 - CSS
+- SASS
 - JavaScript
 - Linters
 - FontAwesome
 - Bootstrap
 - GitHub/VSCode
+- jQuery
 
 ## Live Demo
 

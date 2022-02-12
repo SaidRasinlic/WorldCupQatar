@@ -1,0 +1,23 @@
+{
+  "name": "worldcupqatar",
+  "version": "1.0.0",
+  "description": "> Mobile and Desktop version of World Cup Qatar Conference. I've created home and about pages for this project.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaidRasinlic/WorldCupQatar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SaidRasinlic/WorldCupQatar/issues"
+  },
+  "homepage": "https://github.com/SaidRasinlic/WorldCupQatar#readme",
+  "devDependencies": {
+    "hint": "^6.1.9"
+  }
+}
