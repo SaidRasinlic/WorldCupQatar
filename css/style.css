@@ -786,19 +786,19 @@ body {
     padding-top: 150px;
   }
 
- .hide-mobile-nav {
-   display: none;
+  .hide-mobile-nav {
+    display: none;
   }
 
  .navy {
-   height: 24px;
+    height: 24px;
   }
 
- #outro-container {
-   -webkit-box-orient: horizontal;
-   -webkit-box-direction: normal;
-   -ms-flex-direction: row;
-   flex-direction: row;
+  #outro-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
 
  .speaker {
