@@ -44,8 +44,8 @@ body {
   background-image: url("../resources/img/title-background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-background-clip: text;
   background-clip: text;
+  -webkit-background-clip: text; 
   color: transparent;
   background-color: $gray;
 }
