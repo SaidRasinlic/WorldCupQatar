@@ -60,7 +60,7 @@ body {
 #hero {
   display: -webkit-box; /* stylelint-disable-line */
   display: -ms-flexbox; /* stylelint-disable-line */
-  display: flex; 
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -74,8 +74,8 @@ body {
 }
 
 .hero-subheader {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  display: -webkit-box; /* stylelint-disable-line */
+  display: -ms-flexbox; /* stylelint-disable-line */
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -122,8 +122,8 @@ body {
 }
 
 .hero-main-message {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  display: -webkit-box; /* stylelint-disable-line */
+  display: -ms-flexbox; /* stylelint-disable-line */
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -291,8 +291,8 @@ body {
 }
 
 .speaker {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  display: -webkit-box; /* stylelint-disable-line */
+  display: -ms-flexbox; /* stylelint-disable-line */
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -475,8 +475,8 @@ body {
   display: -webkit-box; /* stylelint-disable-line */
   display: -ms-flexbox; /* stylelint-disable-line */
   display: flex;
-  -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
+  -webkit-box-pack: space-evenly; /* stylelint-disable-line */
+  -ms-flex-pack: space-evenly; /* stylelint-disable-line */
   justify-content: space-evenly;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -539,7 +539,7 @@ body {
   background-image: url("../resources/img/title-background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-clip: text;
+  background-clip: text; /* stylelint-disable-line */
   -webkit-background-clip: text;
   color: transparent;
   background-color: #d3d3d3;
@@ -593,8 +593,8 @@ body {
 }
 
 .about-hero-main-message {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  display: -webkit-box; /* stylelint-disable-line */
+  display: -ms-flexbox; /* stylelint-disable-line */
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -721,7 +721,7 @@ body {
   flex-direction: column;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; 
+  align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -815,7 +815,7 @@ body {
     -ms-flex-direction: row;
     flex-direction: row;
     -webkit-box-pack: space-evenly; /* stylelint-disable-line */
-    -ms-flex-pack: space-evenly;
+    -ms-flex-pack: space-evenly; /* stylelint-disable-line */
     justify-content: space-evenly;
     -webkit-box-align: start;
     -ms-flex-align: start;
@@ -856,8 +856,8 @@ body {
   .speakers {
     width: 100%;
     padding: 20px 5px 20px 30px;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    display: -webkit-box; /* stylelint-disable-line */
+    display: -ms-flexbox; /* stylelint-disable-line */
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
@@ -990,6 +990,6 @@ body {
   .nav-menu-top li a {
     color: #d3d3d3;
     text-decoration: none;
-  } 
-} 
+  }
+}
 /*# sourceMappingURL=style.css.map */
