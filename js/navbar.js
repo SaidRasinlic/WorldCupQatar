@@ -1,3 +1,4 @@
+/* eslint-env jquery */
 $(document).click(function(event) {
 
  let clickover = $(event.target);

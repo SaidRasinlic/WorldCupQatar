@@ -1,3 +1,4 @@
+/* eslint-env jquery */
 const featuredSpeakers = [{
   id: 1,
   fullName: 'Gianni Infantino',
