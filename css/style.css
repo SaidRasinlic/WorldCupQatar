@@ -77,13 +77,13 @@ body {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
-   flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-align: start;
   -ms-flex-align: start;
-   align-items: flex-start;
+  align-items: flex-start;
   color: #ec5242;
   line-height: 1.6;
   font-family: 'Lato', sans-serif;
@@ -188,6 +188,10 @@ body {
   cursor: pointer;
 }
 
+.spider-net {
+  background-color: #acacac1f;
+}
+
 .spider-net:hover {
   background-color: #ec10104b;
   -webkit-transition: 0.3s;
@@ -219,6 +223,7 @@ body {
 
 .program-items span {
   width: 28%;
+  color: #ec5242;
 }
 
 .program-list {
@@ -228,10 +233,6 @@ body {
 
 .program-items img {
   width: 50px;
-}
-
-.spider-net {
-  background-color: #acacac1f;
 }
 
 #program-button {
@@ -259,10 +260,6 @@ body {
   display: block;
   color: #fff;
   margin: 5px;
-}
-
-.program-items span {
-  color: #ec5242;
 }
 
 #speakers {
@@ -802,11 +799,6 @@ body {
     flex-direction: row;
   }
 
-  .speaker:hover {
-    background-color: #e6dfde62;
-    cursor: pointer;
-  }
-
   .speaker {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -821,6 +813,11 @@ body {
     -webkit-box-align: start;
     -ms-flex-align: start;
      align-items: flex-start;
+    }
+    
+    .speaker:hover {
+      background-color: #e6dfde62;
+      cursor: pointer;
     }
 
   #speakers-container {
