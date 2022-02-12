@@ -494,7 +494,6 @@
     "strnum": "^1.0.5",
     "strtok3": "^6.3.0",
     "style-search": "^0.1.0",
-    "stylelint": "^14.5.0",
     "stylelint-config-recommended": "^7.0.0",
     "supports-color": "^5.5.0",
     "supports-hyperlinks": "^2.2.0",
@@ -567,7 +566,11 @@
     "yauzl": "^2.10.0"
   },
   "devDependencies": {
-    "hint": "^6.1.9"
+    "hint": "^6.1.9",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
