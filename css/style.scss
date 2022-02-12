@@ -41,7 +41,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  background-image: url("../docs/resources/img/title-background.png");
+  background-image: url("../resources/img/title-background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: text;
@@ -53,7 +53,7 @@ body {
 #hero {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(rgba(206, 205, 205, 0.301), rgba(220, 224, 220, 0.726)), url('../docs/resources/img/stadium-qatar.png');
+  background: linear-gradient(rgba(206, 205, 205, 0.301), rgba(220, 224, 220, 0.726)), url("../resources/img/stadium-qatar.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 50px;
@@ -222,7 +222,7 @@ body {
 
 .speaker {
   display: flex;
-  flex-direction: row; // ............
+  flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
   padding: 20px 5px 20px 30px;
@@ -396,7 +396,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: linear-gradient(rgba(206, 205, 205, 0.301), rgba(220, 224, 220, 0.726)), url('../docs/resources/img/stadium-qatar.png');
+  background: linear-gradient(rgba(206, 205, 205, 0.301), rgba(220, 224, 220, 0.726)), url("../resources/img/stadium-qatar.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 50px;
@@ -409,7 +409,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("../docs/resources/img/title-background.png");
+  background-image: url("../resources/img/title-background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: text;
@@ -571,14 +571,6 @@ body {
   .campaign {
     display: none;
   }
-  // #hero {
-  //   padding-bottom: -150px;
-  //   padding-top: -150px;
-  // }
-  // #about-hero {
-  //   padding-bottom: -150px;
-  //   padding-top: 150px;
-  // }
 }
 
 @media screen and (min-width: 768px) {
