@@ -1,72 +1,72 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
 html {
  -webkit-box-sizing: border-box;
- box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
  -webkit-box-sizing: inherit;
- box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
- font-family: 'Leto', sans-serif;
- margin: 0 !important;
- padding: 0 !important;
+  font-family: 'Leto', sans-serif;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .navbar-toggler.collapsed .close-icon {
- display: none;
+  display: none;
 }
 
 .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
- display: inline;
+  display: inline;
 }
 
 .campaign {
- border: 3px solid #ec5242;
- margin: 5px;
+  border: 3px solid #ec5242;
+  margin: 5px;
 }
 
 .hero-container {
- display: -webkit-box;
- display: -ms-flexbox;
- display: flex;
- -webkit-box-orient: vertical;
- -webkit-box-direction: normal;
- -ms-flex-direction: column;
- flex-direction: column;
- -webkit-box-pack: start;
- -ms-flex-pack: start;
- justify-content: flex-start;
- -webkit-box-align: start;
- -ms-flex-align: start;
- align-items: flex-start;
- background-image: url("../docs/resources/img/title-background.png");
- background-repeat: no-repeat;
- background-size: cover;
- background-clip: text;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-image: url("../docs/resources/img/title-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: text;
  -webkit-background-clip: text;
- color: transparent;
- background-color: #d3d3d3;
+  color: transparent;
+  background-color: #d3d3d3;
 }
 
 #hero {
- display: -webkit-box;
- display: -ms-flexbox;
- display: flex;
- -webkit-box-orient: vertical;
- -webkit-box-direction: normal;
- -ms-flex-direction: column;
- flex-direction: column;
- background: -webkit-gradient(linear, left top, left bottom, from(rgba(206, 205, 205, 0.301)), to(rgba(220, 224, 220, 0.726))), url("../docs/resources/img/stadium-qatar.png");
- background: linear-gradient(rgba(206, 205, 205, 0.301), rgba(220, 224, 220, 0.726)), url("../docs/resources/img/stadium-qatar.png");
- background-repeat: no-repeat;
- background-size: cover;
- padding-bottom: 50px;
- padding-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(206, 205, 205, 0.301)), to(rgba(220, 224, 220, 0.726))), url("../docs/resources/img/stadium-qatar.png");
+  background: linear-gradient(rgba(206, 205, 205, 0.301), rgba(220, 224, 220, 0.726)), url("../docs/resources/img/stadium-qatar.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
+  padding-top: 10px;
 }
 
 .hero-subheader {
